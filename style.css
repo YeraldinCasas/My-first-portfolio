@@ -1,0 +1,154 @@
+html {
+  background-image: url("img/background.jpg");
+  background-size: 100%;
+  width: 100%;
+}
+
+
+.container{
+  width: 900px;
+  margin: 0 auto;
+  background-color: #1D2830;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+header {
+  display: flex; 
+}
+
+
+.header {
+  position: sticky !important;
+  width: 100%;
+  height: 200px;
+  left: 0px;
+  top: 0px;
+  background:  #4499BB;
+  margin-bottom: 16px;
+  display: flex; 
+  justify-content:space-between;
+  border-radius: 5px;  
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.70);
+}
+
+.url{
+  display: flex;
+  justify-content: center;
+align-items: center;
+padding: 15px;
+}
+
+.photo{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.70);
+  display:block;
+  width: 100%;
+  height: 93%;
+  border-radius: 5px;
+
+}
+
+.yeral{
+  display: flex;
+  justify-content: flex-end;
+  line-height: 0.1;
+  margin-left: 200px;
+  flex-direction: column;
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+.name{
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  font-weight: lighter;
+  color: #FEFEFE; 
+  text-shadow: 0 1px 0 #ccc,
+                0 6px 1px rgba(0, 0, 0, .1), 
+                0 0 5px rgba(0, 0, 0, .1), 
+                0 1px 3px rgba(0, 0, 0, .3), 
+                0 3px 5px rgba(0, 0, 0, .2), 
+                0 5px 10px rgba(0, 0, 0, .25), 
+                0 10px 10px rgba(0, 0, 0, .2),
+                0 20px 20px rgba(0, 0, 0, .15) ;   
+ 
+}
+
+.job{
+  font-family: 'Montserrat', sans-serif;
+  color:#2C2A2A;
+}
+
+.body2{
+  display: flex;
+
+}
+
+.content1 {
+  background: #C3F3E2;
+  margin-bottom: 16px;
+  width: 80%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.70);
+  }
+
+  .subtitle{
+    font-family: 'Francois One', sans-serif;
+    color: #2C2A2A;
+    font-weight: bold;
+    text-size-adjust: 10px;
+    text-align: left;
+    margin-left: 12px;
+  }
+
+  .subtitle2{
+    font-family:'Montserrat', sans-serif;
+    color: #2C2A2A;
+    font-weight: bold;
+    font-size: 13px;
+    text-size-adjust: 10px;
+    text-align: left;
+    margin-left: 12px;
+  }
+
+  .card-img-bottom {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;  
+  }
+  
+  .sidebar{
+    background:#E3FDFE;
+    margin-bottom: 16px;
+    height: 96%;
+    left: 0px;
+    top: 0px;
+    margin-left: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.70);
+  } 
+
+  .text {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+  }
+
+  .text2 {
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+.footer{
+  background-color: #227EA7;
+  width: 100%;
+  height: 10%;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.70);
+}
+
+/* 
+<a href="https://www.freepik.es/fotos-vectores-gratis/fondo">
+
+Vector de Fondo creado por coolvector - www.freepik.es</a> */
